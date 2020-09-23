@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<style type="text/css">
+			.mui-pull-left{
+				color: black;
+			}
+			P{
+				font-family: "微软雅黑";
+				font-size: 18px;
+				font-weight: 800;
+				text-align: center;
+				color: black;
+				height: 30px;
+				background-color: #F9F9F9;
+				line-height: 30px;
+				
+			}
+			.af{
+				width: auto;
+				height: 25px;
+			}
+			.bf{
+				margin-left: 10px;
+				
+				color: blue;
+			}
+			.cf{
+				font-weight: 700;
+			}
+			.mui-input-clear{
+				height: 150px;
+			}
+			#uploadheadImage{
+				border-radius: 30px;
+				background-color: cornflowerblue;
+			}
+		</style>
+	</head>
+
+	<body>
+		<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a><p>品类反馈</p>
+		<div class="af">
+			<span class="bf"><strong>|</strong></span> <span class="cf">问题描述</span>
+		</div>
+		<div class="row mui-input-row">
+				<textarea id='question' class="mui-input-clear question" placeholder="请告诉我们你想要的品类~~"></textarea>
+			</div>
+		<div class="mui-row mui-content-padded">
+	     	<button type="button" class="mui-btn mui-btn-blue mui-btn-block" id="uploadheadImage">提交</button>
+	     </div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>
